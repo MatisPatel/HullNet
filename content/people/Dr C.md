@@ -3,8 +3,8 @@ title: Dr C
 draft: false
 tags:
   - academic/reader
-  - ecology/predatorEcology
-  - algebra/galois
+  - biology/ecology/predatorEcology
+  - mathematics/algebra/galois
 ---
  
 I work on many things
