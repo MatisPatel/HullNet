@@ -1,6 +1,7 @@
 ---
 title: Dr A
 draft: false
+summary: population ecology ftw
 tags:
   - academic/pi
   - biology/ecology
