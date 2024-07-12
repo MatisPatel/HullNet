@@ -8,4 +8,4 @@ tags:
   - programming/R
 ---
  
-Hello I am Dr A. I work with [[Dr B]] and [[Prof D]]
+Hello I am Dr A. I work with [[Dr B]] and [[Prof D]]. 
