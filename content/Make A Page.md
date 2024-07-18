@@ -71,7 +71,7 @@ This form allows you to enter your details to be added to the site. The form gen
           </label>
           <label>
             Your email:
-            <input type="email" name="email">
+            <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\.ac\.uk" title="Please enter an email address ending with '.ac.uk'"> </label>
           </label>
           <label>
             Profile Picture (completely optional):
@@ -154,4 +154,5 @@ This form allows you to enter your details to be added to the site. The form gen
     </script>
 </body>
 </html>
+
 
