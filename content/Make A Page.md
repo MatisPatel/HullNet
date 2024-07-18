@@ -108,23 +108,38 @@ This form allows you to enter your details to be added to the site. The form gen
             <button type="button" onclick="addStudent()">Add Student/Lab Member</button>
           </label>
           <label>
-            Primary Academic Discipline (please try to choose only 1 or 2):
-            <select name="primary_discipline">
-              <option value="discipline1">Discipline 1</option>
-              <option value="discipline2">Discipline 2</option>
+            Primary Academic Disciplines (you may select multiple):
+            <select name="primary_disciplines[]" multiple>
+              <option value="Biology">Biology</option>
+              <option value="Chemistry">Chemistry</option>
+              <option value="Physics">Physics</option>
+              <option value="Psychology">Psychology</option>
+              <option value="Mathematics">Mathematics</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Engineering">Engineering</option>
+              <option value="Medicine">Medicine</option>
+              <option value="Law">Law</option>
+              <option value="Business">Business</option>
+              <option value="Economics">Economics</option>
+              <option value="Political Science">Political Science</option>
+              <option value="Sociology">Sociology</option>
+              <option value="Anthropology">Anthropology</option>
+              <option value="History">History</option>
+              <option value="Literature">Literature</option>
+              <option value="Philosophy">Philosophy</option>
+              <option value="Art">Art</option>
+              <option value="Music">Music</option>
               <!-- add more disciplines as needed -->
             </select>
           </label>
           <label>
-            Subdisciplines (please try to choose 5 maximum, ideally 3 to help dicsovery):
+            Sub-disciplines (please use accepted terminology in your field, tags may be merged for clarity by the admin):
             <div id="subdisciplines">
-              <select name="subdisciplines[]">
-                <option value="subdiscipline1">Subdiscipline 1</option>
-                <option value="subdiscipline2">Subdiscipline 2</option>
-                <!-- add more subdisciplines as needed -->
-              </select>
+              <input type="text" name="subdisciplines[]">
+              <input type="text" name="subdisciplines[]">
+              <input type="text" name="subdisciplines[]">
             </div>
-            <button type="button" onclick="addSubdiscipline()">Add Subdiscipline</button>
+            <button type="button" onclick="addSubdiscipline()">Add Sub-discipline</button>
           </label>
           <label>
             Your message:
@@ -148,7 +163,7 @@ This form allows you to enter your details to be added to the site. The form gen
 
       function addSubdiscipline() {
         var div = document.createElement('div');
-        div.innerHTML = '<select name="subdisciplines[]"><option value="subdiscipline1">Subdiscipline 1</option><option value="subdiscipline2">Subdiscipline 2"></select>';
+        div.innerHTML = '<input type="text" name="subdisciplines[]">';
         document.getElementById('subdisciplines').appendChild(div);
       }
     </script>
