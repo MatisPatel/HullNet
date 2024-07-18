@@ -19,7 +19,7 @@ This form allows you to enter your details to be added to the site. The form gen
         .container {
             width: 100%;
             max-width: 600px;
-            background-color: #fff;
+            /* background-color: #fff; */
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
