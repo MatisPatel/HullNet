@@ -1,6 +1,7 @@
 ---
 title: Dr B
 draft: false
+summary: gene expression of aphids
 tags:
   - academic/postdoc
   - biology/ecology
