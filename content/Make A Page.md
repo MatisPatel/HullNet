@@ -30,10 +30,10 @@ This form allows you to enter your details to be added to the site. The form gen
             display: flex;
             flex-direction: column;
         }
-        label {
+        /* label {
             margin-bottom: 5px;
             margin-top: 15px;
-        }
+        } */
         input, select, textarea, button {
             margin-bottom: 15px;
             padding: 10px;
