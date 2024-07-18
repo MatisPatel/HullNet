@@ -6,7 +6,7 @@ This form allows you to enter your details to be added to the site. The form gen
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
     <style>
-        body {
+        /* body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -15,7 +15,7 @@ This form allows you to enter your details to be added to the site. The form gen
             align-items: center;
             height: 100vh;
             background-color: #f4f4f4;
-        }
+        } */
         .container {
             width: 100%;
             max-width: 600px;
