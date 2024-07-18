@@ -34,14 +34,14 @@ This form allows you to enter your details to be added to the site. The form gen
             margin-bottom: 5px;
             margin-top: 15px;
         } */
-        /* input, select, textarea, button {
-            margin-bottom: 15px;
-            padding: 10px;
+        input, select, textarea, button {
+            /* margin-bottom: 15px; */
+            /* padding: 10px; */
             font-size: 16px;
             border: 1px solid #ccc;
-            border-radius: 5px;
+            /* border-radius: 5px; */
             width: 100%;
-        } */
+        } 
         button {
             background-color: #4CAF50;
             color: white;
