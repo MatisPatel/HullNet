@@ -70,8 +70,12 @@ This form allows you to enter your details to be added to the site. The form gen
             </select>
           </label>
           <label>
+            Full Name:
+            <input type="text" name="full_name" required>
+          </label>
+          <label>
             Your email:
-            <input type="email" name="email"> </label>
+            <input type="email" name="email" required> </label>
           </label>
           <label>
             Profile Picture (completely optional):
@@ -91,7 +95,7 @@ This form allows you to enter your details to be added to the site. The form gen
           </label>
           <label>
             Research Interests and short Bio:
-            <textarea name="research_bio"></textarea>
+            <textarea name="research_bio" required></textarea>
           </label>
           <label>
             Collaborators (please use full names, with no titles):
@@ -109,7 +113,7 @@ This form allows you to enter your details to be added to the site. The form gen
           </label>
           <label>
             Primary Academic Disciplines (you may select multiple):
-            <select name="primary_disciplines[]" multiple>
+            <select name="primary_disciplines[]" multiple required>
               <option value="Biology">Biology</option>
               <option value="Chemistry">Chemistry</option>
               <option value="Physics">Physics</option>
@@ -133,9 +137,9 @@ This form allows you to enter your details to be added to the site. The form gen
             </select>
           </label>
           <label>
-            Sub-disciplines (please use accepted terminology in your field, tags may be merged for clarity by the admin):
+            Sub-disciplines, at least one (please use accepted terminology in your field, tags may be merged for clarity by the admin):
             <div id="subdisciplines">
-              <input type="text" name="subdisciplines[]">
+              <input type="text" name="subdisciplines[]" required>
               <input type="text" name="subdisciplines[]">
               <input type="text" name="subdisciplines[]">
             </div>
