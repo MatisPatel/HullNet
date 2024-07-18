@@ -4,7 +4,7 @@ This form allows you to enter your details to be added to the site. The form gen
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <title>Signup form</title>
     <style>
         /* body {
             font-family: Arial, sans-serif;
